@@ -22,43 +22,43 @@ INSERT INTO images (image_url) VALUES ('https://firebasestorage.googleapis.com/v
 
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (1, '2023-02-21 13:00:00', 1, 'Si Kijang Money Box activity', 'Sasana Kijang, Bank Negara Malaysia', 'Si Kijang Money Box', NULL);
+VALUES (1, '2024-02-21 13:00:00', 1, 'Si Kijang Money Box activity', 'Sasana Kijang, Bank Negara Malaysia', 'Si Kijang Money Box', NULL);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (1, '2023-03-01 11:00:00', 2, 'Learn about Malaysian banknotes', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Get To Know Your Banknotes', NULL);
+VALUES (1, '2024-03-01 11:00:00', 2, 'Learn about Malaysian banknotes', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Get To Know Your Banknotes', NULL);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (2, '2023-03-01 11:00:00', 3, 'Explore the history of Ringgit currency', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: How old is the Ringgit?', NULL);
+VALUES (2, '2024-03-01 11:00:00', 3, 'Explore the history of Ringgit currency', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: How old is the Ringgit?', NULL);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (3, '2023-03-01 11:00:00', 4, 'Insight into Bank Negara Malaysia\'s role', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Bank Negara Malaysia – What do we do?', 100);
+VALUES (3, '2024-03-01 11:00:00', 4, 'Insight into Bank Negara Malaysia\'s role', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Bank Negara Malaysia – What do we do?', 100);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (1, '2023-03-05 09:00:00', 5, 'Interactive art session for kids', 'Sasana Kijang, Bank Negara Malaysia', 'Art Workshop for Kids', NULL);
+VALUES (1, '2024-03-05 09:00:00', 5, 'Interactive art session for kids', 'Sasana Kijang, Bank Negara Malaysia', 'Art Workshop for Kids', NULL);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (2, '2023-03-10 10:00:00', 6, 'Discussion on currency policies', 'Sasana Kijang, Bank Negara Malaysia', 'Panel: Currency Policy in Malaysia', NULL);
+VALUES (2, '2024-03-10 10:00:00', 6, 'Discussion on currency policies', 'Sasana Kijang, Bank Negara Malaysia', 'Panel: Currency Policy in Malaysia', NULL);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (3, '2023-03-15 14:00:00', 7, 'Guided tour of the Bank Negara Museum', 'Bank Negara Museum', 'Museum Tour', 25);
+VALUES (3, '2024-03-15 14:00:00', 7, 'Guided tour of the Bank Negara Museum', 'Bank Negara Museum', 'Museum Tour', 25);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (1, '2023-03-20 11:00:00', 8, 'Learn about rare banknotes', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Rare Banknotes of Malaysia', NULL);
+VALUES (1, '2024-03-20 11:00:00', 8, 'Learn about rare banknotes', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Rare Banknotes of Malaysia', NULL);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (2, '2023-03-25 15:00:00', 9, 'How to manage your finances', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Financial Literacy Workshop', NULL);
+VALUES (2, '2024-03-25 15:00:00', 9, 'How to manage your finances', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Financial Literacy Workshop', NULL);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (3, '2023-03-30 10:00:00', 10, 'An exhibition on Malaysian currency evolution', 'Sasana Kijang, Bank Negara Malaysia', 'Exhibition: Evolution of Currency', 40);
+VALUES (3, '2024-03-30 10:00:00', 10, 'An exhibition on Malaysian currency evolution', 'Sasana Kijang, Bank Negara Malaysia', 'Exhibition: Evolution of Currency', 40);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (1, '2023-04-05 11:00:00', 11, 'Learn the art of currency design', 'Sasana Kijang, Bank Negara Malaysia', 'Workshop: Currency Design 101', NULL);
+VALUES (1, '2024-04-05 11:00:00', 11, 'Learn the art of currency design', 'Sasana Kijang, Bank Negara Malaysia', 'Workshop: Currency Design 101', NULL);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (2, '2023-04-10 13:00:00', 12, 'Explore the currency minting process', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Inside the Mint', NULL);
+VALUES (2, '2024-04-10 13:00:00', 12, 'Explore the currency minting process', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Inside the Mint', NULL);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (3, '2023-04-15 09:00:00', 13, 'History of international currencies', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Currencies of the World', 50);
+VALUES (3, '2024-04-15 09:00:00', 13, 'History of international currencies', 'Sasana Kijang, Bank Negara Malaysia', 'Talk: Currencies of the World', 50);
 
 INSERT INTO activity (category_id, datetime, image_id, description, location, title, participant_limit)
-VALUES (2, '2023-04-20 14:00:00', 14, 'Interactive game on financial management', 'Sasana Kijang, Bank Negara Malaysia', 'Activity: Money Management Game', NULL);
+VALUES (2, '2024-04-20 14:00:00', 14, 'Interactive game on financial management', 'Sasana Kijang, Bank Negara Malaysia', 'Activity: Money Management Game', NULL);
