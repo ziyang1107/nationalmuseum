@@ -15,7 +15,15 @@ CREATE TABLE IF NOT EXISTS activity (
                                         participant_limit INT,
                                         image_id INT,
                                         datetime TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-                                        CONSTRAINT fk_image FOREIGN KEY (image_id) REFERENCES images (image_id)
+                                        CONSTRAINT fk_category FOREIGN KEY (category_id) REFERENCES category (category_id),
+                                        CONSTRAINT fk_image FOREIGN KEY (image_id) REFERENCES images (image_id),
+
+                                        -- CHECK constraint to enforce participant_limit when category_id = 3
+                                        CONSTRAINT chk_participant_limit CHECK (
+                                             (category_id = 3 AND participant_limit IS NOT NULL) OR
+                                             (category_id != 3 AND participant_limit IS NULL)
+                                        )
+
 );
 
 -- Create the category table to store categories
