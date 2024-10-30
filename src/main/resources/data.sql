@@ -1,3 +1,5 @@
+USE nationalmuseumdb;
+
 INSERT INTO category (category_name) VALUES ('In-reach Programme');
 INSERT INTO category (category_name) VALUES ('Art Bazaar');
 INSERT INTO category (category_name) VALUES ('Guided Tour');
